@@ -1,0 +1,66 @@
+.skills__container{
+    height: 100vh;
+    background-image: url(images/bgaabautme.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills__arrowleft, .skills__arrowrigth{
+    width: 5%;
+    z-index: 1;
+}
+
+.skills__arrowleft img, .skills__arrowrigth img{
+        width: 100%;
+}
+
+.skills__slidercontainer{
+    width: 90%;
+    overflow: hidden;
+}
+
+.skills__slider{
+    display: flex;
+    width: 300%;
+}
+
+.skills__slider  .skils__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 33%;
+}
+
+.skils__img > h2{
+    margin: 50px;
+}
+
+.skils__img > .skills__images{
+
+    width: 340px;
+    height: 200px;
+
+}
+
+.skills__ovni{
+    margin: 35px;
+    width: 100px;
+    display: flex;
+    flex-direction: end ;
+}
+
+.skils__img a {
+    text-decoration: none;
+    color: purple;
+}
+
+@media  (min-width:800px) {
+    .skils__img > .skills__images{
+        width: 650px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,96 @@
+
+.lvl__container-principal{
+    animation: backgroundMove 2.5s linear infinite ;
+    animation-name: backgroundMove;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.lvl__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lvl__container > h1,h2{
+    text-align: center;
+    font-family: 'joystixmonospace';
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    
+} 
+.lvl__button{
+    background-image: url(images/buttonstart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height:70px;
+    margin-top: 40px;
+    animation: float 6s ease-in-out infinite;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lvl__button a{
+    opacity: 0;
+}
+
+.lvl__container > p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.lvl__container-principalFinal{
+    height: 100vh;
+    animation: backgroundMove 2.5s linear infinite ;
+    animation-name: backgroundMove;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    
+}
+
+.lvl__socialmedia > a{
+
+    text-decoration: none;
+    color: rgb(230, 15, 230);
+
+}
+
+.lvl__back{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lvl__back > a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+@keyframes backgroundMove {
+    0%{
+        background-image: url(images/bgalvl.png);
+        
+    }
+    50%{
+        background-image: url(images/bgalvl2.png);
+    }
+    100%{
+        background-image: url(images/bgalvl3.png);
+        transition: all 1s ease;
+    }
+  }

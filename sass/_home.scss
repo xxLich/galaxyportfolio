@@ -1,0 +1,46 @@
+
+.home__container-principal{
+    height: 100vh;
+    background-image: url(images/imghome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home__container h1, h2{
+    text-align: center;
+    font-family: 'joystixmonospace';
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    
+}   
+
+
+
+.home__button{
+    background-image: url(images/buttonstart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height:70px;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__button  a{
+
+    opacity: 0;
+
+}

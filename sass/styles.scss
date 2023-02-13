@@ -1,0 +1,20 @@
+@use 'home';
+@use 'lvl';
+@use 'abautme';
+@use 'skills';
+@use 'proyects';
+@use 'work';
+
+@font-face {
+    font-family: 'joystixmonospace';
+    src: url(joystixmonospace.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'joystixmonospace';
+}
