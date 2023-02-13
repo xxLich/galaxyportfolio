@@ -1,3 +1,6 @@
+//ALERT
+alert("este proyecto esta en su primera etapa, puede que tenga unos pequeños errores y cosas por mejorar");
+
 
 //SLIDER SKILLS
 let slider = document.querySelector('.skills__slider');
